@@ -1,3 +1,2 @@
 # Project
-School Projects
-Hello
+School
