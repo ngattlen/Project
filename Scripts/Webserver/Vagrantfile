@@ -13,10 +13,12 @@ Vagrant.configure("2") do |config|
     config.vm.provider "virtualbox" do |vb|
       vb.memory = "2048"
 end
-    config.vm.provision "shell", inline: <<-SHELL
-        sudo apt-get update
-        sudo apt-get upgrade
-        sudo apt-get install apache2 -y
-        echo "ServerName hello" > /etc/apache2/apache2.conf
-    SHELL
+    
+config.vm.provision :shell, keep_color: true, path: "vagrant-prov.sh"
+    #config.vm.provision "shell", inline: <<-SHELL
+        #sudo apt-get update
+        #sudo apt-get upgrade
+        #sudo apt-get install apache2 -y
+        #echo "ServerName hello" > /etc/apache2/apache2.conf
+    #SHELL
 end
