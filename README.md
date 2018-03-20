@@ -4,6 +4,12 @@ Hier wird alles dokumentiert.
 ## Was ist Vagrant?
 Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.
 
+#Befehle für Vagrant
+
+    vagrant up --> Startet die VM
+    vagrant destroy --> VM wird zerstört
+
+
 ## Mögliche Befehle für Markdown
 # headers
 
