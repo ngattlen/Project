@@ -1,0 +1,34 @@
+# Init the Vagrant box
+vagrant init ubuntu/trusty64;  
+
+# Start and provision the VM
+vagrant up;
+
+# SSH into the VM
+vagrant ssh;
+
+# Become root
+sudo su -
+
+# Upgrade the OS
+apt-get update;
+apt-get upgrade;
+
+# Install required software to biuld the stack (no servers installed)
+apt-get install apache2 php5 php5-mysql php5-pgsql php5-json php5-mcrypt git-core;
+
+# Install some nice to have tools
+apt-get install postgresql-client mysql-client lynx unzip curl openssl
+
+# Enable PHP module
+php5enmod mcrypt;
+
+# Enable Apache module
+a2enmod rewrite;
+
+# Restart Apache
+service apache2 restart;
+
+# Install composer
+curl -sS https://getcomposer.org/installer | php;
+mv composer.phar /usr/local/bin/composer;
