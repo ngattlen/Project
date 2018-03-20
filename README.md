@@ -1,10 +1,11 @@
 # Project Modul 300
 Hier wird alles dokumentiert.
 
+# Vagrant
 ## Was ist Vagrant?
 Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.
 
-#Befehle für Vagrant
+## Befehle für Vagrant
 
     vagrant up --> Startet die VM
     vagrant destroy --> VM wird zerstört
