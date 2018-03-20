@@ -17,6 +17,6 @@ end
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install apache2 -y
-        echo "ServerName hello" > /etc/apache2/httpd.conf
+        echo "ServerName hello" > /etc/apache2/apache2.conf
     SHELL
 end
