@@ -9,6 +9,7 @@ Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.
 
     vagrant up --> Startet die VM
     vagrant destroy --> VM wird zerstört
+    vagrant reload --> Änderungen werden vorgezogen
 
 
 ## Mögliche Befehle für Markdown
