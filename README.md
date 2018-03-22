@@ -11,6 +11,12 @@ Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.
     vagrant destroy --> VM wird zerstört
     vagrant reload --> Änderungen werden vorgezogen
 
+# Bash und Git
+## Was ist Bash und Git ?
+
+<p>Bash ist eine Shell. Bash wird Verwendet zur Ausführung von Shellscripts und zum Einloggen auf Virtuellen Maschinen.</br>
+Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
+
 
 ## Mögliche Befehle für Markdown
 # headers
