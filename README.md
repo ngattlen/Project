@@ -20,7 +20,12 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 # Virtualbox
 ## Was ist Virtualbox
 
-<p>Virtualbox ist eine Software, die erlaubt lokal auf dem PC virtuellen Maschinen zu erstellen und zu verwalten.
+<p>Virtualbox ist eine Software, die erlaubt lokal auf dem PC virtuellen Maschinen zu erstellen und zu verwalten.</p>
+
+# Visual Studio code
+## Was ist Visual Studio Code ?
+
+<p>Visual Studio Code ist ein Source Code Editor.</p>
 
 
 ## Mögliche Befehle für Markdown
