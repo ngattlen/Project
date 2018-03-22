@@ -25,6 +25,14 @@ Hier wird alles dokumentiert.
 <p>Bash ist eine Shell. Bash wird Verwendet zur Ausführung von Shellscripts und zum Einloggen auf Virtuellen Maschinen.</br>
 Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
+## Repository von GitHub klonen
+
+<p>Shell starten</p>
+
+    git config --global user.name "<username>"
+    git config --global user.email "<mail>"
+    git clone link
+
 # Virtualbox
 ## Was ist Virtualbox
 
