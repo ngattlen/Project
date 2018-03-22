@@ -43,7 +43,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
 <p>Visual Studio Code ist ein Source Code Editor.</p>
 
-## Einstellunge für Visual Studio Code
+## Einstellungen für Visual Studio Code
 
 
 
