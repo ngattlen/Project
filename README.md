@@ -5,6 +5,14 @@ Hier wird alles dokumentiert.
 ## Was ist Vagrant?
 <p>Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.</ps>
 
+## Virtuelle Maschine über Vagrant erstellen
+<p>Verzeichnis lokal auf dem PC erstellen und ein Vagrant File erstellen. Anschliessend Bash öffnen und folgende Befehle im Shell eingeben</br></p>
+
+        mkdir ubuntu
+        cd ubuntu
+        vagrant init ubuntu/xenial64
+        vagrant up --provider virtualbox
+
 ## Befehle für Vagrant
 
     vagrant up --> Startet die VM
