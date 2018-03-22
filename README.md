@@ -3,7 +3,7 @@ Hier wird alles dokumentiert.
 
 # Vagrant
 ## Was ist Vagrant?
-Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.
+<p>Vagrant ist eine Software zum Verwalten von virtuellen Maschinen.</ps>
 
 ## Befehle für Vagrant
 
