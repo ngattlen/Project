@@ -17,6 +17,10 @@ Hier wird alles dokumentiert.
 <p>Bash ist eine Shell. Bash wird Verwendet zur Ausführung von Shellscripts und zum Einloggen auf Virtuellen Maschinen.</br>
 Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
+# Virtualbox
+
+<p>Virtualbox ist eine Software, die erlaubt lokal auf dem PC virtuellen Maschinen zu erstellen und zu verwalten.
+
 
 ## Mögliche Befehle für Markdown
 # headers
