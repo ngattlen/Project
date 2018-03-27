@@ -45,6 +45,20 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
 ## Einstellungen für Visual Studio Code
 
+    // Der Pfad zur ausführbaren Git-Datei.
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    // Passt an, welches Terminal für Windows ausgeführt werden soll.
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    // Der Pfad der Shell, den das Terminal unter Windows verwendet.
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-bash.exe",
+    // Konfiguriert die Globmuster zum Ausschließen von Dateien und Ordnern.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.vagrant": true,
+        "**/.DS_Store": true
+    },
 
 
 
