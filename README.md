@@ -60,6 +60,19 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
         "**/.DS_Store": true
     },
 
+# Apache
+
+## Was ist Apache ?
+
+<p>Apache wird verwendet um einen Webserver zu betreiben.</p>
+
+## Einstellungen für Apache
+
+<p>Port Forwarding --> VM Hülle</p>
+    
+    config.vm.network "forwarded_port", guest: 80, host: 8080
+
+
 ## Mögliche Befehle für Markdown
 # headers
 
