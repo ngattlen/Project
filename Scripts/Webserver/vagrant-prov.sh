@@ -5,6 +5,9 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install apache2 -y
+sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql -y
+sudo mysql_install_db
+sudo /usr/bin/mysql_secure_installation
 sudo apt-get install ufw
     sudo ufw status
     sudo ufw -f enable 
