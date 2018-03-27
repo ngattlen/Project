@@ -60,8 +60,6 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
         "**/.DS_Store": true
     },
 
-
-
 ## Mögliche Befehle für Markdown
 # headers
 
