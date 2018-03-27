@@ -76,7 +76,9 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
     sudo apt-get install apache2 -y
     Browser öffnen --> URL: localhost:8080
-    
+
+![Apache](picture/webserver.png)
+
 
 
 ## Mögliche Befehle für Markdown
