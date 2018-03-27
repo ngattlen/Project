@@ -72,6 +72,12 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     
     config.vm.network "forwarded_port", guest: 80, host: 8080
 
+<p>Apache installieren und testen</p>
+
+    sudo apt-get install apache2 -y
+    Browser öffnen --> URL: localhost:8080
+    
+
 
 ## Mögliche Befehle für Markdown
 # headers
