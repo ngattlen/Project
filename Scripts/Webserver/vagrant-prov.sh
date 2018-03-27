@@ -18,15 +18,16 @@ sudo a2enmod proxy
 sudo a2enmod proxy_html
 sudo a2enmod proxy_http
 sudo service apache2 restart -y
-    # Port 80 (HTTP) öffnen für alle
 
+# Port 80 (HTTP) öffnen für alle
 sudo ufw allow 80/tcp
 sudo ufw -f enable
 exit
-# Port 22 (SSH) nur für den Host (wo die VM laufen) öffnen
 
+# Port 22 (SSH) nur für den Host (wo die VM laufen) öffnen
 sudo ufw allow from 10.0.2.2 to any port 22
 exit
+
 # Port 3306 (MySQL) nur für den web Server öffnen
 vagrant ssh database
 sudo ufw allow from any to any port 3306
