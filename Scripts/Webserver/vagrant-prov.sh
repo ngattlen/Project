@@ -22,7 +22,7 @@ sudo ufw -f enable
 exit
 
 # Port 22 (SSH) nur für den Host (wo die VM laufen) öffnen
-sudo ufw allow from 10.0.2.2 to any port 22
+sudo ufw allow from 10.0.2.15 to any port 22
 exit
 
 # Port 3306 (MySQL) nur für den web Server öffnen
