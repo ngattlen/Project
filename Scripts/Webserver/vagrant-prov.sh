@@ -1,7 +1,7 @@
 #filename: vagrant-prov.sh
 #!/usr/bin/env bash
 
-# Updates, Apache, Firewall und MySQL installierens
+# Updates, Apache, Firewall und MySQL installieren
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install apache2 -y
