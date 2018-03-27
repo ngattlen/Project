@@ -7,7 +7,7 @@ sudo apt-get upgrade
 sudo apt-get install apache2 -y
 debconf-set-selections <<< 'mysql-server mysql-server/root_password password vagrant'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password vagrant'
-apt-get install -y mysql-server
+sudo apt-get install mysql-server -y
 sudo apt-get install ufw
     sudo ufw status
     sudo ufw -f enable 
