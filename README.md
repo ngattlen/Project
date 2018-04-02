@@ -105,7 +105,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
     # Port 3306 (MySQL) nur für den web Server öffnen
     vagrant ssh database
-    sudo ufw allow from any to any port 3306
+    sudo ufw allow from localhost:3306 to any port 3306
     sexit
 
 ## Firewall Testen
