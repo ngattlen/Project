@@ -87,28 +87,32 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
 ## Firewall installieren
 
-        sudo apt-get install ufw --> UFW installieren
-        sudo ufw status --> Firewall Status anzeigen
-        sudo ufw enable --> Firewall aktivieren
-        sudo ufw disable --> Firewall deaktivieren
+    sudo apt-get install ufw --> UFW installieren
+    sudo ufw status --> Firewall Status anzeigen
+    sudo ufw enable --> Firewall aktivieren
+    sudo ufw disable --> Firewall deaktivieren
 
 ## Meine Firewall Regeln
 
-        # Port 80 (HTTP) öffnen für alle
-        sudo ufw allow 80/tcp
-        sudo ufw -f enable
-        exit
+    # Port 80 (HTTP) öffnen für alle
+    sudo ufw allow 80/tcp
+    sudo ufw -f enable
+    exit
 
-        # Port 22 (SSH) nur für den Host öffnen
-        sudo ufw allow from 10.0.2.15 to any port 22
-        exit
+    # Port 22 (SSH) nur für den Host öffnen
+    sudo ufw allow from 10.0.2.15 to any port 22
+    exit
 
-        # Port 3306 (MySQL) nur für den web Server öffnen
-        vagrant ssh database
-        sudo ufw allow from any to any port 3306
-        exit
+    # Port 3306 (MySQL) nur für den web Server öffnen
+    vagrant ssh database
+    sudo ufw allow from any to any port 3306
+    sexit
 
+## Firewall Testen
 
+    curl -f 10.0.2.15 --> HTML Code sollte angezeigt werden
+    curl -f 10.0.2.15:3306
+    
 
 
 ## Mögliche Befehle für Markdown
