@@ -111,7 +111,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 ## Firewall Testen
 
     curl -f 10.0.2.15 --> HTML Code sollte angezeigt werden
-    curl -f 10.0.2.15:3306
+    curl -f 10.0.2.15:3306 --> Verbindung zu MySQL sollte funktioneren
     
 
 
