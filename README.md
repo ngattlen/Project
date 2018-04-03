@@ -77,7 +77,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     sudo apt-get install apache2 -y
     Browser öffnen --> URL: localhost:8080
 
-![Apache](picture/webserver.png)
+![Apache](Project/picture/webserver.PNG)
 
 # Firewall
 
@@ -114,7 +114,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     curl -f localhost:3306 --> MySQL
     sudo ufw status --> Aktive Firewallregeln
     
-![Firewall](https://github.com/ngattlen/Project/tree/master/picture/firewall.png)
+![Firewall](picture/firewall.png)
 
 
 # MySQL
