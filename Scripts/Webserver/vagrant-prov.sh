@@ -21,6 +21,7 @@ sudo service apache2 restart -y
 
 # Port 80 (HTTP) öffnen für alle
 sudo ufw allow 80/tcp
+sudo ufw allot 3306/tcp
 sudo ufw -f enable
 exit
 
