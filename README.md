@@ -111,8 +111,27 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 ## Firewall Testen
 
     curl -f 10.0.2.15 --> HTML Code sollte angezeigt werden
-    curl -f 10.0.2.15:3306 --> Verbindung zu MySQL sollte funktioneren
-    
+    curl -f localhost:3306 --> MySQL
+    sudo ufw status --> Aktive Firewallregeln
+
+# MySQL
+
+## Was ist MySQl ?
+
+<p>MySQL ist eine Datenbank</p>
+
+## MySQL Konfig Passwort setzen
+
+    debconf-set-selections <<< 'mysql-server mysql-server/root_password password vagrant'
+    debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password vagrant'
+
+## MySQL installieren
+
+    sudo apt-get install mysql-server -y
+
+## MySQL Testen
+
+    mysqladmin -u root -p status --> MySQL Login
 
 
 ## Mögliche Befehle für Markdown

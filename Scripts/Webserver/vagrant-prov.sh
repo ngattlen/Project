@@ -30,5 +30,5 @@ exit
 
 # Port 3306 (MySQL) nur für den web Server öffnen
 vagrant ssh database
-sudo ufw allow from 10.0.2.15 to any port 3306
+sudo ufw allow from any to any port 3306
 exit
