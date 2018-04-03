@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/Users/Nico/Project/Scripts/html/shift","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Nico/Project/Scripts/Webserver","disabled":false,"__vagrantfile":true}}}
