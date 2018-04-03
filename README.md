@@ -113,6 +113,9 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     curl -f 10.0.2.15 --> HTML Code sollte angezeigt werden
     curl -f localhost:3306 --> MySQL
     sudo ufw status --> Aktive Firewallregeln
+    
+![Firewall](picture/firewall.png)
+
 
 # MySQL
 
@@ -133,7 +136,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
     mysqladmin -u root -p status --> MySQL Login
 
-![Apache](picture/mysql.png)
+![MySQL](picture/mysql.png)
 
 
 
