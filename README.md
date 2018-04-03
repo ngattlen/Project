@@ -114,7 +114,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     curl -f localhost:3306 --> MySQL
     sudo ufw status --> Aktive Firewallregeln
     
-![Firewall](picture/firewall.png)
+![Firewall](https://github.com/ngattlen/Project/tree/master/picture/firewall.png)
 
 
 # MySQL
