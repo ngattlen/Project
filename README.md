@@ -77,7 +77,7 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
     sudo apt-get install apache2 -y
     Browser öffnen --> URL: localhost:8080
 
-![Apache](Project/picture/webserver.PNG)
+![Apache](picture/webserver.png)
 
 # Firewall
 
