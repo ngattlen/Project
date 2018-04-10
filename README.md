@@ -138,6 +138,11 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 
 ![MySQL](picture/mysql.jpg)
 
+# Docker
+
+## Was ist Docker ?
+<p>Die Docker-Plattform besteht vereinfacht gesagt aus zwei getrennten Komponenten: der Docker Engine, die für das Erstellen und
+Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud Service, um Container-Images zu verteilen.</p>
 
 
 
