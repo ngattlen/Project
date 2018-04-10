@@ -144,6 +144,20 @@ Git ist eine Software zur verteilten Versionsverwaltung von Dateien.</p>
 <p>Die Docker-Plattform besteht vereinfacht gesagt aus zwei getrennten Komponenten: der Docker Engine, die für das Erstellen und
 Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud Service, um Container-Images zu verteilen.</p>
 
+    Docker Tools Installieren
+
+## Befehle für Docker
+
+    docker run hello-world --> Installation Überprüfen
+    docker run -it ubuntu /bin/bash --> Container mit Shell
+    docker run -d ubuntu sleep 20 --> Container im Hintergrund
+    docker run -d ubuntu touch /tmp/lock --> Container und File erstellen
+    docker ps --> Überblick über alle Containern
+    docker rm <name> --> Container löschen
+    docker rm `docker ps -a -q` --> Beendenten Container lösch.
+    docker rm -f `docker ps -a -q` --> Auch Aktive löschen
+    docker rmi ubuntu --> ISO löschen
+    docker start <id> --> Gestoppte Container starten
 
 
 ## Mögliche Befehle für Markdown
