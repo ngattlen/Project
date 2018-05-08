@@ -159,13 +159,61 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
     docker rmi ubuntu --> ISO löschen
     docker start <id> --> Gestoppte Container starten
 
+## Dockerfile einrichten und testen
+<p>1. Dockerfile im Verzeichnis erstellen</p>
+<p>2. Image anhand vom Dockerfile erstellen</p>
+
+>docker build -t webserver .
+
+![Images](picture/images.jpg)
+
+## Container starten
+    docker run -d -p 8080:80 webserver
+
+![containerstart](picture/containerstart.jpg)
+
+    Aktive Container anzeigen --> docker ps
+
+![containerruning](picture/containerrunning.jpg)
+
+## Webserver Testen
+<p> Es gibt zwei Arten um zu schauen ob der Dienst läuft</p>
+
+![dockerip](picture/dockerip.jpg)
+
+> curl http://192.168.99.100:8080
+
+![dockercurl](picture/dockercurl.jpg)
+
+<p>Über einem Browser</p>
+
+![dockerweb](picture/dockerweb.jpg)
+
+## Firewall Regeln nachschauen
+
+    docker exec -it 0f04ee636332 bash
+    ufw status
+
+## Monitoring
+
+<p>Über CMD</>
+
+>docker stats
+
+![cmd](picture/cmd.jpg)
+
+
+<p>Mit Cadvisor</p>
+
+
+
 
 ## Mögliche Befehle für Markdown
 # headers
 
 *emphasis*
 
-**strong**
+**strong**s
 
 * list
 

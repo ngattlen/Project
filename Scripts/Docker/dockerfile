@@ -23,7 +23,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 
 RUN mkdir -p /var/lock/apache2 /var/run/apache2
 
-RUN groupadd -r docker-Docker_Group && useradd -r -g Docker_Group test
+#RUN groupadd -r docker-Docker_Group && useradd -r -g Docker_Group test
 
 EXPOSE 80
 
@@ -32,7 +32,7 @@ VOLUME /var/www/html
 CMD /usr/sbin/apache2ctl -D FOREGROUND
 
 #default html ersetzen
-ADD  index.html /var/www/html
-#firewall config ausführen
-ADD ufw.sh . 
+ADD  /shift /var/www/html
+#Firewall konfig ausführen
+ADD firewall.sh . 
 RUN chmod +x ./firewall.sh
