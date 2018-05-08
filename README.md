@@ -171,24 +171,24 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
 ## Container starten
     docker run -d -p 8080:80 webserver
 
-![containerstart](picture/containerstart.jpg)
+![containerstart](picture/containerstart.JPG)
 
     Aktive Container anzeigen --> docker ps
 
-![containerruning](picture/containerrunning.jpg)
+![containerruning](picture/containerrunning.JPG)
 
 ## Webserver Testen
 <p> Es gibt zwei Arten um zu schauen ob der Dienst läuft</p>
 
-![dockerip](picture/dockerip.jpg)
+![dockerip](picture/dockerip.JPG)
 
 > curl http://192.168.99.100:8080
 
-![dockercurl](picture/dockercurl.jpg)
+![dockercurl](picture/dockercurl.JPG)
 
 <p>Über einem Browser</p>
 
-![dockerweb](picture/dockerweb.jpg)
+![dockerweb](picture/dockerweb.JPG)
 
 ## Firewall Regeln nachschauen
 
@@ -201,17 +201,17 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
 
 >docker stats
 
-![cmd](picture/cmd.jpg)
+![cmd](picture/cmd.JPG)
 
 
 <p>Mit Cadvisor</p>
 
     docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 webserver/cadvisor
 
-![mon1](picture/mon1.jpg)
-![mon2](picture/mon2.jpg)
-![mon3](picture/mon3.jpg)
-![mon4](picture/mon4.jpg)
+![mon1](picture/mon1.JPG)
+![mon2](picture/mon2.JPG)
+![mon3](picture/mon3.JPG)
+![mon4](picture/mon4.JPG)
 
 ## Docker User
 
