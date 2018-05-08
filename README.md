@@ -166,7 +166,7 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
 
 >docker build -t webserver .
 
-![Images](picture/images.jpg)
+![Images](picture/images.JPG)
 
 ## Container starten
     docker run -d -p 8080:80 webserver
