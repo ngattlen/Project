@@ -219,6 +219,9 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
 
 >RUN groupadd -r User_Group && useradd -r -g User_group xyz
 
+<p>Mit diesem Befehl logt man sich ein:</p>
+
+![benutzer](picture/benutzer.JPG)
 
 ## Mögliche Befehle für Markdown
 # headers
