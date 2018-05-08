@@ -10,8 +10,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 sudo apt-get install mysql-server -y
 sudo apt-get install ufw
     sudo ufw status
-    sudo ufw -f enable 
-    sudo ufw -f enable 
+    sudo ufw -f enable  
     sudo apt-get install libapache2-mod-proxy-html
 sudo apt-get install libxml2-dev -y
 sudo a2enmod proxy
