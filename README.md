@@ -158,6 +158,7 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
     docker rm -f `docker ps -a -q` --> Auch Aktive löschen
     docker rmi ubuntu --> ISO löschen
     docker start <id> --> Gestoppte Container starten
+    RAM begrenzen --> docker run -m 2096m --memory-swap 2096m
 
 ## Dockerfile einrichten und testen
 <p>1. Dockerfile im Verzeichnis erstellen</p>
@@ -205,7 +206,18 @@ Ausführen von Containern verantwortlich ist, sowie dem Docker Hub, einem Cloud 
 
 <p>Mit Cadvisor</p>
 
+    docker run -d --name cadvisor -v /:/rootfs:ro -v /var/run:/var/run:rw -v /sys:/sys:ro -v /var/lib/docker/:/var/lib/docker:ro -p 8080:8080 webserver/cadvisor
 
+![mon1](picture/mon1.jpg)
+![mon2](picture/mon2.jpg)
+![mon3](picture/mon3.jpg)
+![mon4](picture/mon4.jpg)
+
+## Docker User
+
+<p>Mit diesem Befehl kann ein Docker user erstellt werden </p>
+
+>RUN groupadd -r User_Group && useradd -r -g User_group xyz
 
 
 ## Mögliche Befehle für Markdown

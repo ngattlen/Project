@@ -23,7 +23,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 
 RUN mkdir -p /var/lock/apache2 /var/run/apache2
 
-#RUN groupadd -r docker-Docker_Group && useradd -r -g Docker_Group test
+#RUN groupadd -r docker-Group && useradd -r -g docker-group dockertest
 
 EXPOSE 80
 
